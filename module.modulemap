@@ -1,0 +1,5 @@
+module CNanomsg [system] {
+    header "/usr/local/include/nanomsg/nn.h"
+    link "nanomsg"
+    export *
+}
