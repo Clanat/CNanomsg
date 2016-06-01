@@ -13,7 +13,6 @@ module CNanomsg [system] {
     header "/usr/local/include/nanomsg/inproc.h"
     header "/usr/local/include/nanomsg/ipc.h"
     header "/usr/local/include/nanomsg/tcp.h"
-    header "/usr/local/include/nanomsg/tcpmux.h"
     header "/usr/local/include/nanomsg/ws.h"
 
     link "nanomsg"
