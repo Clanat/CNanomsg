@@ -2,5 +2,5 @@ import PackageDescription
 
 let package = Package(
    name: "CNanomsg",
-   pkgConfig: "libnanomsg"
+   pkgConfig: "nanomsg"
    )
