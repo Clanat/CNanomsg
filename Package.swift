@@ -1,6 +1,9 @@
 import PackageDescription
 
 let package = Package(
-   name: "CNanomsg",
-   pkgConfig: "nanomsg"
-   )
+    name: "CNanomsg",
+    pkgConfig: "libnanomsg",
+    providers: [
+        .apt(["libnanomsg-dev"]),
+   ]
+)
